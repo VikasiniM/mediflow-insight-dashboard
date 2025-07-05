@@ -1,73 +1,54 @@
-# Welcome to your Lovable project
+# 🧠 Mediflow Insight Dashboard
 
-## Project info
+This is a responsive hospital management dashboard built as part of my internship assignment.  
+The project uses **Vite + React + TypeScript + Tailwind CSS + shadcn/ui** for fast development and modern UI.
 
-**URL**: https://lovable.dev/projects/a1b9d254-bf4b-4aac-b729-5d39c791f839
+---
 
-## How can I edit this code?
+## 🚀 Tech Stack
 
-There are several ways of editing your application.
+- ⚡ Vite (build tool)
+- ⚛️ React
+- 🧑‍💻 TypeScript
+- 🎨 Tailwind CSS
+- 🧩 shadcn/ui (for UI components)
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/a1b9d254-bf4b-4aac-b729-5d39c791f839) and start prompting.
+## 📂 Features
 
-Changes made via Lovable will be committed automatically to this repo.
+- 📌 Sidebar navigation with routing options
+- 📊 Dashboard tiles (Regulatory Docs, HR, KPI, etc.)
+- 🌗 Dark mode toggle
+- ♻️ Reusable components
+- 📱 Fully responsive (Desktop & Mobile)
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 📸 Screenshots
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 💻 Desktop View
+![Desktop Screenshot](./Project%20image1.jpg)
 
-Follow these steps:
+### 📱 Mobile View
+![Mobile Screenshot](./Project%20image2.jpg)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🛠️ How to Run
 
-# Step 3: Install the necessary dependencies.
-npm i
+```bash
+# Clone the repo
+git clone https://github.com/VikasiniM/mediflow-insight-dashboard.git
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+# Go to the project folder
+cd mediflow-insight-dashboard
 
-**Edit a file directly in GitHub**
+# Install dependencies
+bun install
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+# Start the dev server
+bun dev
+---
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/a1b9d254-bf4b-4aac-b729-5d39c791f839) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+📬 Connect with me: [https://linktr.ee/vikasinim](https://linktr.ee/vikasinim)
