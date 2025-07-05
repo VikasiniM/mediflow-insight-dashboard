@@ -6,7 +6,9 @@ import Dashboard from '../components/Dashboard';
 const Index = () => {
   return (
     <ThemeProvider>
-      <Dashboard />
+      <div className="min-h-screen w-full overflow-x-hidden">
+        <Dashboard />
+      </div>
     </ThemeProvider>
   );
 };
