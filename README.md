@@ -52,4 +52,6 @@ bun install
 bun dev
 ---
 
-📬 Connect with me: [https://linktr.ee/vikasinim](https://linktr.ee/vikasinim)
+## 📬 Connect with Me
+
+🔗 [https://linktr.ee/vikasinim](https://linktr.ee/vikasinim)
