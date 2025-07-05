@@ -20,20 +20,19 @@ const Dashboard: React.FC = () => {
   }, [currentRole]);
 
   return (
-    <div className="min-h-screen w-full flex overflow-x-hidden bg-gradient-to-br from-teal-50 via-white to-blue-50 
+    <div className="flex h-screen w-full bg-gradient-to-br from-teal-50 via-white to-blue-50 
                     dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 
                     transition-colors duration-300">
       
       {/* Sidebar */}
       <Sidebar isOpen={sidebarOpen} onClose={() => setSidebarOpen(false)} />
 
-      {/* Main Content Container */}
-      <div className="flex-1 min-h-screen lg:ml-64">
+      {/* Main Content */}
+      <div className="flex-1 flex flex-col min-w-0">
         {/* Header */}
-        <header className="w-full bg-white/80 dark:bg-gray-800/80 backdrop-blur-md 
-                         border-b border-gray-200/20 dark:border-gray-700/20 
-                         sticky top-0 z-30">
-          <div className="w-full max-w-none px-4 sm:px-6 lg:px-8 py-4">
+        <header className="flex-shrink-0 bg-white/80 dark:bg-gray-800/80 backdrop-blur-md 
+                         border-b border-gray-200/20 dark:border-gray-700/20">
+          <div className="px-4 sm:px-6 lg:px-8 py-4">
             <div className="flex items-center justify-between">
               <div className="flex items-center space-x-4">
                 {/* Mobile menu button */}
@@ -66,9 +65,9 @@ const Dashboard: React.FC = () => {
           </div>
         </header>
 
-        {/* Main Content */}
-        <main className="w-full">
-          <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-6">
+        {/* Scrollable Main Content */}
+        <main className="flex-1 overflow-y-auto">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-6">
             {/* Stats Banner */}
             <StatsBanner />
 

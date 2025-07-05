@@ -24,10 +24,9 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
         border-r border-gray-200/20 dark:border-gray-700/20
         transform transition-transform duration-300 ease-in-out z-50
         ${isOpen ? 'translate-x-0' : '-translate-x-full'}
-        lg:translate-x-0 lg:static lg:z-0
-        flex-shrink-0
+        lg:translate-x-0 lg:static lg:z-0 lg:flex-shrink-0
       `}>
-        <div className="flex flex-col h-full w-full">
+        <div className="flex flex-col h-full">
           {/* Header */}
           <div className="p-6 border-b border-gray-200/20 dark:border-gray-700/20 flex-shrink-0">
             <div className="flex items-center justify-between">

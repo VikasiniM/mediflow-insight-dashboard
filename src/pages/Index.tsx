@@ -6,7 +6,7 @@ import Dashboard from '../components/Dashboard';
 const Index = () => {
   return (
     <ThemeProvider>
-      <div className="min-h-screen w-full overflow-x-hidden">
+      <div className="h-screen w-full overflow-hidden">
         <Dashboard />
       </div>
     </ThemeProvider>
