@@ -28,10 +28,11 @@ The project uses **Vite + React + TypeScript + Tailwind CSS + shadcn/ui** for fa
 ## 📸 Screenshots
 
 ### 💻 Desktop View
-![Desktop Screenshot](./Project%20image1.jpg)
 
-### 📱 Mobile View
-![Mobile Screenshot](./Project%20image2.jpg)
+
+![Screenshot](./Project%20image2.jpg)
+![Screenshot](./Project%20image1.jpg)
+
 
 ---
 
