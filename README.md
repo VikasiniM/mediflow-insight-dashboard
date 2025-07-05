@@ -50,8 +50,8 @@ bun install
 
 # Start the dev server
 bun dev
+```
 ---
-
 ## 📬 Connect with Me
 
 🔗 [https://linktr.ee/vikasinim](https://linktr.ee/vikasinim)
